@@ -47,7 +47,7 @@
 
 }
 
-#breakline {
+.breakline {
     border-left: solid 1px var(--border-color);
     box-shadow: rgba(00, 00, 00, 0.15) 0px 7px 17px 3px;
     margin: 3rem 2rem 0rem 2rem;
