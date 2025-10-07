@@ -30,6 +30,7 @@ footer {
 #footer > section p {
     margin-bottom: 1rem;
     color: var(--primary-txt);
+    font-size: clamp(0.8rem, 1vw, 0.9rem);
 }
 
 #icon i {
