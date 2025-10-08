@@ -92,6 +92,29 @@ footer {
     display: flex;
     flex-direction: column;
     max-width: 18rem;
+    border: solid 1px var(--primary-txt);
+    border-radius: 10px;
+    padding: 0.7rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.annons-btn {
+    border: solid 1px var(--primary-txt);
+    border-radius: 15px;
+    background-color: var(--primary-txt);
+    color: var(--primary-color);
+    padding: 0.5rem;
+    width: 8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.annons-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--primary-txt);
+    transition: 0.2s ease-in-out;
+    box-shadow: #131d38 0px -20px 36px -28px inset;
+    
 }
 
 button {
@@ -103,4 +126,11 @@ button {
     width: 8rem;
     font-weight: 600;
     cursor: pointer;
+}
+
+.form div a {
+    text-decoration: none;
+    color: var(--primary-txt);
+    font-size: clamp(0.8rem, 1vw, 1rem);
+    margin-bottom: 0.3rem;
 }
