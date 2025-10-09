@@ -17,6 +17,10 @@ footer {
     color: var(--primary-txt);
 }
 
+.footer-h-color {
+    color: var(--primary-txt);
+}
+
 #footer > section:nth-child(3) {
     display: flex;
     flex-direction: row;

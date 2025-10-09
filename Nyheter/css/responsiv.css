@@ -32,6 +32,10 @@
     .breakline {
         display: none;
     }
+
+    .article-page-main {
+        width: 90%;
+    }
 }
 
 @media (max-width: 768px) {
